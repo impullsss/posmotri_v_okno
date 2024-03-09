@@ -44,6 +44,7 @@ ol {
   display: flex;
   align-items: flex-end;
   width: 1140px;
+  height: 534px ;
   gap: 30px;
 }
 
@@ -73,10 +74,10 @@ ol {
 }
 
 .content__details {
-  width: 399px;
   gap: 26px;
   display: flex;
   flex-direction: column;
+  align-self: baseline;
 }
 
 .content__list {

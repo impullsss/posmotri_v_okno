@@ -44,7 +44,6 @@ ol {
   display: flex;
   align-items: flex-end;
   width: 1140px;
-  height: 534px ;
   gap: 30px;
 }
 
@@ -83,13 +82,13 @@ ol {
 .content__list {
   display: flex;
   flex-direction: column;
-  max-height: 298px;
+  height: 298px;
   overflow-y: auto;
   position: relative;
 }
 
 .content__list-item {
-  width: 394px;
+  min-width: 394px;
   padding: 2px;
   margin-top: 30px;
  }
@@ -127,7 +126,7 @@ ol {
 }
 
 .title {
-  font-family: Oswald;
+  font-family: Oswald, Arial, sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 70px;
@@ -148,7 +147,7 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald;
+  font-family: Oswald, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 700;
@@ -229,7 +228,7 @@ button:hover {
 .button {
   background-color: transparent;
   color: #fff;
-  font-family: Fira Sans Condensed;
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
